@@ -9,9 +9,11 @@ const GlobalStyle = createGlobalStyle`
 
     body{
         background-color: #1b1b1b;
+        font-family: 'Inter', sans-serif;
     }
 
     button{
+        font-family: 'Inter', sans-serif;
         font-weight: bold;
         font-size: 1.1.rem;
         cursor: pointer;
@@ -35,6 +37,7 @@ const GlobalStyle = createGlobalStyle`
     }
     h4{
         font-weight: bold;
+        font-size: 2rem;
     }
     span{
         font-weight: bold;
@@ -49,6 +52,12 @@ const GlobalStyle = createGlobalStyle`
         font-size: 1.4rem;
         line-height: 150%;
     }
+    .line {
+    background: #cccccc;
+    height: 0.2rem;
+    margin: 2rem 0rem;
+    width: 100%;
+  }
 `
 
 export default GlobalStyle
